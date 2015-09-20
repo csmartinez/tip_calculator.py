@@ -1,3 +1,4 @@
+# Python Tip Calculator - Carli Martinez
 meal_price = input("How much was your total, rounded to the nearest dollar?\n")
 level_of_service = input("Was your service Good, Bad or Excellent?\n")
 tip=0
@@ -18,6 +19,6 @@ elif level_of_service == "Excellent":
             tip = meal_price * .25
 else:
     tip = " --- Sorry, please enter Good, Bad, or Excellent for level of service."
-    
+
 tip = str(tip)
 print("\nTip your server $" + tip)
